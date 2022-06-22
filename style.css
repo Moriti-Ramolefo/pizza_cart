@@ -1,0 +1,213 @@
+body {
+    background-image: url(https://i.stack.imgur.com/1inrW.png);
+    color: azure;
+    font-family: cursive;
+}
+
+.pizzas {
+    border-radius: 1em;
+    background-color: transparent;
+    padding: 1em;
+    margin: 1em;
+}
+
+.medium {
+    border: 1em solid darkgoldenrod;
+    border-radius: 1em;
+    background-color: transparent;
+    padding: 1em;
+    margin: 1em;
+}
+
+.large {
+    border: 1em solid darkgoldenrod;
+    border-radius: 1em;
+    background-color: transparent;
+    padding: 1em;
+    margin: 1em;
+}
+
+.small {
+    border: 1em solid darkgoldenrod;
+    border-radius: 1em;
+    background-color: transparent;
+    padding: 1em;
+    margin: 1em;
+}
+
+.picAlign {
+    margin-left: 2em;
+}
+
+.header-deco {
+    font-family: Dancing Script;
+    font-size: xxx-large;
+}
+
+.delicious {
+    margin-right: 0.7em;
+}
+
+.box {
+    border: 1em solid transparent;
+    width: 10%;
+    padding: 2em 1em 2em 0em;
+}
+
+.header {
+    padding: 1em;
+    display: flex;
+    border-radius: 0.5em;
+}
+
+.input {
+    margin: 1em;
+    background-color: transparent;
+    color: azure;
+    border-color: darkgoldenrod;
+    border-radius: 1em;
+    font-family: cursive;
+}
+
+.cart {
+    padding: 1em;
+    width: 100%;
+    margin-top: 0;
+    border-radius: 0.5em;
+}
+
+.cart-box {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.show-hide {
+    color: azure;
+    font-family: cursive;
+    background-color: transparent;
+    border-color: darkgoldenrod;
+    border-radius: 2em;
+    cursor: pointer;
+    margin-top: 2em;
+    margin-right: 2em;
+}
+
+.other-btn {
+    border: 0;
+    border-radius: 2em;
+}
+
+img {
+    text-align: center;
+    vertical-align: bottom;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    text-align: center;
+    vertical-align: bottom;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid darkgoldenrod;
+
+}
+
+.f0 {
+    flex: 0;
+}
+
+.f3 {
+    flex: 3;
+}
+
+.message {
+    padding: 1em;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.input {
+    padding: 1em;
+}
+
+.btn {
+    padding: 1em 0em 1em 0em;
+    width: 8em;
+    background-color: goldenrod;
+    color: black;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    border-radius: 2em;
+}
+
+.buy {
+    width: 7em;
+    margin-bottom: 1em;
+
+}
+
+@media(min-width:768px) {
+    .body {
+        align-items: center;
+    }
+
+    .pizzas {
+        display: flex;
+        align-items: center;
+        border-radius: 1em;
+        background-color: transparent;
+        padding: 1em;
+        margin: 3em;
+    }
+
+    .cart {
+        width: 100%;
+    }
+
+    .header {
+        display: flex;
+    }
+
+    .row {
+        display: flex;
+    }
+
+    .address {
+        text-align: right;
+    }
+
+    .f0 {
+        flex: 0;
+    }
+    
+}
+
+footer {
+    border-radius: 1em;
+    background-color: grey;
+    padding: 1em;
+    margin: 1em;
+    font-family: monospace;
+}
+
+.contacts {
+    flex: 25%;
+    padding: 1px;
+    height: 100px;
+}
+
+.address {
+    flex: 25%;
+    padding: 1px;
+    height: 100px;
+}
